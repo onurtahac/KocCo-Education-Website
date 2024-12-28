@@ -1,0 +1,61 @@
+.card-container {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    background-color: rgba(243, 243, 243, 0.356);
+    transition: transform 0.3s ease;
+    padding: 20px;
+    width: 17%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 4px; 
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card .card-title {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card .card-text {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0;
+}
+.body-missions{    
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
+    background-color: rgba(243, 243, 243, 0.356);
+    transition: transform 0.3s ease;
+    padding: 25px;
+    width: 45%;          
+    margin: 0 auto;
+    margin-bottom: 30px;
+}

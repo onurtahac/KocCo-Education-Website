@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "p0MlVfPF3iQadSTSmXS2/CSF3SIn/ImzPU49NkDh9NrOi+jSrxhPeL82atHykuZxT58ptQm0LExirIHtKcrpEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Onur\\OneDrive\\Masaüstü\\KocCoAPI\\Core\\KocCoAPI.Application\\KocCoAPI.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Onur\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Onur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Onur\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Onur\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Onur\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,101 @@
+/* Genel stil ayarları */
+
+.BodyRegister {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 150px auto;
+  }
+  
+  .SignUpButton {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .RegisterForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .LabelRegister {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+    float: left;
+    text-align: center;
+  }
+  
+  .RegisterInput[type="text"],
+  .RegisterInput[type="email"],
+  .RegisterInput[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .RegisterInput[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .RegisterButton{
+    padding: 12px 140px 12px  140px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+
+  .RegisterButton:hover {
+    background-color: #000000;
+  }
+  
+  .LoginRedirect {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .LoginRedirect:hover {
+    text-decoration: underline;
+  }
+  
+  .ErrorPrompt {
+    color: #d9534f;
+    background-color: #f2dede;
+    padding: 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  .SuccessPrompt {
+    color: #3c763d;
+    background-color: #dff0d8;
+    padding: 10px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .RadioButtonRegister{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }

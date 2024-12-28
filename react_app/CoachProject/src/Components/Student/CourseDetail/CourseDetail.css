@@ -1,0 +1,60 @@
+.course-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdfdfd;
+    min-height: 100vh;
+}
+
+.course-detail-card {
+    background-color: #fff;
+    padding: 14%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.course-detail-card h3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+    font-weight: bold; /* Bold yapıldı */
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.course-price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    font-weight: bold; /* Bold yapıldı */
+    color: #201e1e;
+    margin: 0;
+    padding: 0;
+}
+
+.course-description {
+    margin-top: 15%;
+    font-size: 20px;
+    color: #000000;
+    text-align: left; /* İçeriği sola yasla */
+}
+
+.buy-button {
+    position: absolute; 
+    bottom: 50px; 
+    right: 40px; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.901);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 5px 5px; 
+    width: auto;
+}

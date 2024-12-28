@@ -1,0 +1,74 @@
+.user-body-container {
+    height: auto; 
+    width: 100%;
+    background-color: rgb(254, 254, 254);
+    min-height: 65vh;
+}
+
+.advertisements-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    margin-top: 10vh;
+}
+
+.advertisements {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    background-color: rgb(254, 254, 254);
+    transition: transform 0.3s ease;
+    padding: 20px;
+    width: 300px;
+    min-width: 250px;
+    min-height: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advertisements:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.advertisements img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.advertisements h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.advertisements-price {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.advertisements-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.information-button {
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.938);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 5px;
+    width: 100px; /* Sabit genişlik ayarla */
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+.course-detail-card {
+  background-color: #fff;
+  padding: 7%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  position: relative;
+}
+.payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-form label {
+    font-size: 10 px;
+    color: #333;
+  }
+  
+  .payment-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .kvkk-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .kvkk-checkbox input {
+    margin-right: 5px;
+  }
+  
+  .register-button {
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.91);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+  }

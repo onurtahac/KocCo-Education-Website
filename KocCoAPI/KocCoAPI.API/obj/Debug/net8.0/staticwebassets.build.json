@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7SL8B5PYR+KdpETHnzFUlwNaNzG7RnaYG8EcUWm7Wp8=",
+  "Source": "KocCoAPI.API",
+  "BasePath": "_content/KocCoAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
